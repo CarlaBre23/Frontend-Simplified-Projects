@@ -1,12 +1,32 @@
-.row {
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
-.nav {
+
+img {
+height: 50px;
+
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+ul { 
     display: flex;
-    justify-content: sb;
-    align-items: center;
+    margin-left: 900px;
+    list-style-type: none;
+    
 
+   
+    
+    
 }
+
