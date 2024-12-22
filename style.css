@@ -11,13 +11,7 @@ NAV
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 5px solid purple;
 
-}
-
-
-img {
-    height: 50px;
 
 }
 
@@ -85,13 +79,79 @@ HEADER
     width: 40%;
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 80px;
+    justify-content: space-between;
+
+
 }
 
 .header__img--wrapper {
     width: 60%;
+    padding-top: 100px;
 }
- 
-img {
+
+.header-image {
     width: 100%;
+}
+
+.treact-logo {
+    height: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+
+}
+
+.header--trusted-customers {
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+
+}
+
+/*
+
+SECTION 1
+
+*/
+
+.section1__container {
+    padding: 80px 0;
+
+}
+
+.section1__row {
+    width: 100%;
+    max-width: 0 auto;
+}
+
+.title__para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+
+
 }
