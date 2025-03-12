@@ -136,22 +136,48 @@ SECTION 1
 
 }
 
-.services {
-    display: flex;
+.feature {
+    max-width: 350px;
+}
+
+.boxes {
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1200px;
     flex-wrap: wrap;
-
-}
-
-.service {
     display: flex;
-    width: calc(100%/3);
+    }
 
-}
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
 
-.service__description {
-    display: flex;
-    flex-direction: column;
-    flex-direction: row;
+    .title__para {
+        max-width: 45%;
+        display: flex;
+        align-items: right;
+        font-size: 15px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
 
+    .box__title {
+        font-weight: bold;
 
-}
+    }
+
+    .title__header--para {
+        font-size: 17px;
+        max-width: 45%;
+        padding-bottom: 50px;
+    }
+
+    .title__head {
+        font-size: 19px;
+        color: rgb(94, 5, 142);
+        
+    }
