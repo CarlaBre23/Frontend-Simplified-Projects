@@ -193,6 +193,10 @@ SECTION 1
       SECTION 2
       */
 
+      .section2__container {
+        padding: 96px 0;
+      }
+
 
       .section2__row {
         display: flex;
@@ -224,16 +228,116 @@ SECTION 1
 
       .section2__title__head {
         font-size: 20px;
+        max-width: 576px;
+        margin-right: 64px;
 
       }
 
       h4 {
         font-size: 40px;
+        max-width: 576px;
+        margin-right: 64px;
       }
 
       .section2__para {
         font-size: 20px;
+        max-width: 576px;
+        margin-right: 64px;
       }
+      
+      /*
+      SECTION 3
+      */
+
+      .section3__container {
+        padding: 96px 0;
+      }
+
+
+      .section3__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', system-ui;
+        color: #243e63;
+      }
+
+      .section3__img__wrapper {
+        width: 50%;
+      }
+
+      .section3__img {
+        width: 85%
+      }
+
+      .section3__description__wrapper {
+        width: 50;
+      }
+
+      
+
+
+
+      /*
+      SECTION 4
+      */
+
+      .section4__container {
+        padding: 96px 0;
+      }
+
+
+      .section4__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', system-ui;
+        color: #243e63;
+
+      }
+
+      .section4__img__wrapper {
+        width: 50%;
+      }
+
+      .section4__img {
+        width: 100%;
+      }
+
+      .section4__description__wrapper {
+        width: 50;
+
+      }
+
+      .section4__title__head {
+        font-size: 20px;
+        max-width: 576px;
+        margin-right: 64px;
+
+      }
+
+      h6 {
+        font-size: 40px;
+        max-width: 576px;
+        margin-right: 64px;
+      }
+
+      .section4__para {
+        font-size: 20px;
+        max-width: 576px;
+        margin-right: 64px;
+      }
+
       
 
    
