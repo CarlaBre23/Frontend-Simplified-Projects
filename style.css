@@ -346,6 +346,8 @@ SECTION 1
      }
     
      .plan {
+      display:flex;
+      justify-content: space-between;
       width:100%;
       max-width:384px;
       margin: 64px 32px 0 0;
