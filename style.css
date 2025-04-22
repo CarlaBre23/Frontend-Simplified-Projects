@@ -342,7 +342,7 @@ SECTION 1
       justify-content: space-between;
       width: 100%;
       position: relative;
-      z-index: 100%;
+      z-index: 100;
      }
     
      .plan {
