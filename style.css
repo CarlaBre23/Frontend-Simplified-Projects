@@ -217,11 +217,11 @@ SECTION 1
         width: 50%;
       }
       .section2__img {
-        width: 85%;
+        width: 100%;
         
       }
 
-      .section2__description__wrapper{
+      .section2__description__wrapper {
         width: 50%;
 
       }
@@ -276,10 +276,9 @@ SECTION 1
       }
 
       .section3__description__wrapper {
-        width: 50;
+        width: 50%;
       }
 
-      
 
 
 
@@ -337,6 +336,25 @@ SECTION 1
         max-width: 576px;
         margin-right: 64px;
       }
+
+     .plans {
+      display:flex;
+      justify-content: space-between;
+      width: 100%;
+      position: relative;
+      z-index: 100%;
+     }
+    
+     .plan {
+      width:100%;
+      max-width:384px;
+      margin: 64px 32px 0 0;
+      padding-top:8px;
+      border-radius:8px;
+      overflow: hidden;
+      position: relative;
+      z-index: 100;
+     }
 
       
 
