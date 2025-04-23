@@ -337,17 +337,49 @@ SECTION 1
         margin-right: 64px;
       }
 
+ /* SECTION 5 */
+
+   .section__tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+   .section__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+   .Purple {
+    
+
+   }
+
+   .section__para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    max-width: 100%;
+    padding-bottom: 50px;
+
+   }
+
      .plans {
       display:flex;
       justify-content: space-between;
       width: 100%;
+      max-width: 1200px;
       position: relative;
       z-index: 100;
      }
     
      .plan {
       display:flex;
-      justify-content: space-between;
+      flex-direction: column;
       width:100%;
       max-width:384px;
       margin: 64px 32px 0 0;
@@ -357,6 +389,8 @@ SECTION 1
       position: relative;
       z-index: 100;
      }
+
+
 
       
 
